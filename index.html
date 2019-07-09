@@ -15,6 +15,10 @@
 
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
+
+    <style type="text/css">
+   body { background: #f9fafb !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
     
 <!--
 
@@ -38,7 +42,7 @@ https://www.tooplate.com/view/2115-marvel
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
                         <a href="#about" class="nav-link"><span data-hover="Home">Home</span></a>
@@ -56,6 +60,7 @@ https://www.tooplate.com/view/2115-marvel
                     </li>
                 </ul>
 
+		<!--
                 <ul class="navbar-nav ml-lg-auto">
                     <div class="ml-lg-4">
                       <div class="color-mode d-lg-flex justify-content-center align-items-center">
@@ -64,6 +69,7 @@ https://www.tooplate.com/view/2115-marvel
                       </div>
                     </div>
                 </ul>
+		-->
             </div>
         </div>
     </nav>
@@ -71,42 +77,71 @@ https://www.tooplate.com/view/2115-marvel
     <!-- ABOUT -->
     <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
         <div class="container">
-            <div class="row">
-                
-                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
-                    <div class="about-text">
+                    <div class="about-text text-center">
                         <!--<small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small> -->
                         <h1 class="animated animated-text">
-                            <span class="mr-2">FMCG distribution for the future</span>
+                            <span class="mr-2">FMCG distribution for the future.</span>
+			    <br>
 			    <div class="animated-info">
                                     <span class="animated-item">Simple</span>
                                     <span class="animated-item">Efficient</span>
                                     <span class="animated-item">Affordable</span>
 			    </div>
                         </h1>
-
                         <p>We are building the FMCG distribution platform for the future. Powered by technology.</p> 
                     </div>
-                </div>
-
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="about-image svg">
-                        <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image">
-                    </div>
-                </div>
-
-            </div>
         </div>
     </section>
 
-    <!-- PROJECTS -->
-    <!-- 
+<section class="project py-5" id="dfactor">
+        <div class="container">
+
+		<div class="row">
+			<div class="col-lg-11 mx-auto col-12">
+
+				<div class="col-lg-8 text-center mx-auto">
+					<h2>The Dropshop Factor</h2>
+				</div>
+				<br><br>
+
+				<div class="how-section1">
+					<div class="row">	
+						<div class="col-md-6">
+							<br><br><br>
+							<h4>Smart, paperless warehouses with End-to-End Operational Intelligence</h4>
+							Dropshop's tech-enabled, paperless fulfilment centers enable fully digital FMCG logistics with real-time operational visibility. Digitally planned operations with complete traceability of every process and metric for your sales and supply chain team. Constantly learning, continuously optimizing.
+						</div>
+						<div class="col-md-6">
+							<img src="image2.png"/>
+						</div>
+					</div>
+					<div class="row">
+						<br>
+						<div class="col-md-6">
+							<img src="image1.png"/>
+						</div>
+						<div class="col-md-6">
+							<br><br>
+							<h4>Plug 'n' Play Distribution. Efficient and Affordable</h4>
+							Our cloud warehouses with elastic distribution allow maximum flexibility and market reach. Digital onboarding to minimize operation bootstrapping time and cost. Reduce overall distribution costs by up to 50%. Whether you are a large or a small FMCG company, simply plug into Dropshop's network of 50000 (and growing) retailers in Delhi and Bangalore currently.
+				
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- PROJECTS 
 	    smart warehouses
 	    operational intelligence across entire city
 	    analytics and market intelligence
+-->
 
-
-    <section class="project py-5" id="project">
+<!--
+    <section class="project py-5" id="dfactor">
         <div class="container">
                 
                 <div class="row">
@@ -119,33 +154,32 @@ https://www.tooplate.com/view/2115-marvel
                       <div class="owl-carousel owl-theme">
                         <div class="item">
                           <div class="project-info">
-                            <img src="images/project/project-image01.png" class="img-fluid" alt="project image">
+				  Reduce costs by up to 50% with our intelligent distribution network
+                            <img src="images/dropshop_desk.png" class="img-fluid" alt="">
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
+				  Fully digital operations to track, measure and visualize every process, from inbound to warehouses to deliveries at retailers
                             <img src="images/project/project-image02.png" class="img-fluid" alt="project image">
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
+				
                             <img src="images/project/project-image03.png" class="img-fluid" alt="project image">
                           </div>
                         </div>
 
                         <div class="item">
                           <div class="project-info">
+				  Unleash the power of location intelligence to boost your analytics
                             <img src="images/project/project-image04.png" class="img-fluid" alt="project image">
                           </div>
                         </div>
 
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image05.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
                       </div>
 
                   </div>
@@ -153,7 +187,6 @@ https://www.tooplate.com/view/2115-marvel
         </div>
     </section>
     -->
-
     <!--
     <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
         <div class="container">
@@ -252,7 +285,7 @@ https://www.tooplate.com/view/2115-marvel
     <section class="contact py-5" id="contactus">
       <div class="container">
           
-           <div class="contact-form">
+           <div class="contact-form text-center">
               <h2 class="mb-4">We would love to hear from you</h2>
 
               <form action="https://formspree.io/contactus@dropshop.network" method="POST">
@@ -270,7 +303,7 @@ https://www.tooplate.com/view/2115-marvel
                   </div>
 
 	  <div class="col-lg-5">
-		  <input type="submit" align="middle" class="form-control submit-btn" value="Send">
+		  <input type="submit" class="form-control submit-btn" value="Send">
 	  </div>
 		  
                 </div>
